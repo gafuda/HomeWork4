@@ -68,10 +68,33 @@
 // Console.WriteLine("Всего " + count + " элементов");
 
 // Задача 5
-int[] arr = { 25, 26, 27, 28, 29, 30,85 };
-    int sum = 0;
-    for (int i = 1; i < arr.Length; i += 1)
+// int[] arr = { 14, 234, 4, 657, 2322};
+//     int sum = 0;
+//     for (int i = 1; i < arr.Length; i += 1)
+//     {
+//         if(i%2!=0)  sum += arr[i];
+//     }             
+//     Console.WriteLine("Сумма равна " + sum);
+
+// Задача 6
+int[] arr = {14, 234, 4, 657, 2322, 5};
+int a = arr[5];
+int i = arr[0];
+for (int i; i < arr.Length; i += 1)
     {
-        if(i%2!=0)  sum += arr[i];
-    }             
-    Console.WriteLine("Сумма равна " + sum + " элементов");
+        if(i%2!=0) sum += arr[i];
+    }    
+Console.WriteLine(a);
+
+
+// Задача 7
+// int[] array = {14, 234, 4, 657, 2322, 5};
+// int max = array[0];
+// int min = array[0];
+//     for (int i = 1; i < array.Length; i++)
+//     {
+//         if (min > array[i]) min = array[i];
+//         if (max < array[i]) max = array[i];
+//     }
+// int a = min + max;
+// Console.WriteLine(a);
