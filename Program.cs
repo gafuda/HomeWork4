@@ -66,3 +66,12 @@
 //             Console.WriteLine(item);
 //         }
 // Console.WriteLine("Всего " + count + " элементов");
+
+// Задача 5
+int[] arr = { 25, 26, 27, 28, 29, 30,85 };
+    int sum = 0;
+    for (int i = 1; i < arr.Length; i += 1)
+    {
+        if(i%2!=0)  sum += arr[i];
+    }             
+    Console.WriteLine("Сумма равна " + sum + " элементов");
