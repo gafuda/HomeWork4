@@ -77,14 +77,14 @@
 //     Console.WriteLine("Сумма равна " + sum);
 
 // Задача 6
-int[] arr = {14, 234, 4, 657, 2322, 5};
-int a = arr[5];
-int i = arr[0];
-for (int i; i < arr.Length; i += 1)
-    {
-        if(i%2!=0) sum += arr[i];
-    }    
-Console.WriteLine(a);
+// int[] arr = {14, 234, 4, 657, 2322, 5};
+// int a = arr[5];
+// int i = arr[0];
+// for (int i; i < arr.Length; i += 1)
+//     {
+//         if(i%2!=0) sum += arr[i];
+//     }    
+// Console.WriteLine(a);
 
 
 // Задача 7
