@@ -16,7 +16,6 @@
 //     Console.WriteLine(sum);
 
 // Задача 3
-// С решением помог старшекурсник, решение разобрала 
 // Console.WriteLine("Введите размер массива:  ");
 // int size = Convert.ToInt32(Console.ReadLine());
 // int[] numbers = new int[size];
@@ -78,13 +77,12 @@
 
 // Задача 6
 // int[] arr = {14, 234, 4, 657, 2322, 5};
-// int a = arr[5];
-// int i = arr[0];
-// for (int i; i < arr.Length; i += 1)
+// for (int i = 0; i < arr.Length; i ++)
 //     {
-//         if(i%2!=0) sum += arr[i];
+//         if (((arr.Length - 1)/ 2) >= i) {
+//             Console.WriteLine(arr[i] * arr[arr.Length - 1 - i]);
+//         }
 //     }    
-// Console.WriteLine(a);
 
 
 // Задача 7
@@ -98,3 +96,4 @@
 //     }
 // int a = min + max;
 // Console.WriteLine(a);
+
